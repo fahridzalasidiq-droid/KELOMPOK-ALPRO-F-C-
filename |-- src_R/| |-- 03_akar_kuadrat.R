@@ -20,9 +20,7 @@ if (diskriminan > 0) {
 } else {
   cat("Persamaan hanya memiliki akar-akar imajiner.\n")
 }
-## Persamaan memiliki dua akar real berbeda:
-## x1 = 1.243
-## x2 = -7.243
+
 # SKENARIO 1 (DUA AKAR REAL BERBEDA)
 a <- 1; b <- -5; c <- 6
 diskriminan <- b^2 - 4*a*c
@@ -41,9 +39,6 @@ if (diskriminan > 0) {
 } else {
   cat("Persamaan hanya memiliki akar-akar imajiner.\n")
 }
-## Persamaan memiliki dua akar real berbeda.
-## x1 = 3.000
-## x2 = 2.000
 cat("\n")
 # SKENARIO 2 (DUA AKAR REAL KEMBAR)
 a <- 1; b <- -4; c <- 4
@@ -63,8 +58,6 @@ if (diskriminan > 0) {
 } else {
   cat("Persamaan hanya memiliki akar-akar imajiner.\n")
 }
-## Persamaan memiliki dua akar real kembar.
-## x1 = x2 = 2.000
 cat("\n")
 # SKENARIO 3 (AKAR IMAJINER)
 a <- 1; b <- 2; c <- 5
@@ -84,5 +77,3 @@ if (diskriminan > 0) {
 } else {
   cat("Persamaan hanya memiliki akar-akar imajiner.\n")
 }
-## Persamaan hanya memiliki akar-akar imajiner.
-
