@@ -1,7 +1,6 @@
 # PROGRAM 1
 # Menghitung Jumlah Kata dan Jumlah Kalimat
 
-
 # Menghitung Jumlah Kata
 
 def hitung_kata(teks):
@@ -15,7 +14,6 @@ def hitung_kata(teks):
             jumlah = jumlah + 1
 
     return jumlah
-
 
 # Menghitung Jumlah Kalimat
 
@@ -33,8 +31,9 @@ def hitung_kalimat(teks):
 
 
 # SKENARIO 1 (NORMAL)
+# Teks Lengkap
 
-teks = "Media sosial atau disebut juga dengan jejaring sosial, seperti Facebook, Twitter, Instagram, dan masih banyak lagi ternyata tidak hanya digunakan sebagai tempat berkumpul atau berbagi di dunia maya. Namun, media sosial kini juga bisa dimanfaatkan sebagai media untuk mengembangkan sebuah bisnis. Saat ini telah banyak para pengusaha yang beralih ke media sosial dalam memasarkan produk mereka baik barang ataupun jasa. Beralihnya para pelaku bisnis ke media ini dikarenakan jejaring sosial memiliki manfaat yang sangat banyak bagi usaha bisnis. Berikut ini adalah alasan mengapa jejaring sosial bisa menjadi alat promosi yang paling efektif."
+teks = "Membaca buku merupakan kegiatan yang sangat bermanfaat. Buku dapat menambah wawasan dan pengetahuan pembacanya. Selain itu, membaca buku juga dapat meningkatkan kemampuan berpikir dan memperluas kosakata. Oleh karena itu, kebiasaan membaca perlu diterapkan sejak usia dini."
 
 jumlah_kata = hitung_kata(teks)
 
@@ -52,10 +51,10 @@ print(
 
 print()
 
-
 # SKENARIO 2 (NORMAL)
+# Sebagian Teks
 
-teks = "Media sosial atau disebut juga dengan jejaring sosial, seperti Facebook, Twitter, Instagram, dan masih banyak lagi ternyata tidak hanya digunakan sebagai tempat berkumpul atau berbagi di dunia maya. Namun, media sosial kini juga bisa dimanfaatkan sebagai media untuk mengembangkan sebuah bisnis."
+teks = "Membaca buku merupakan kegiatan yang sangat bermanfaat. Buku dapat menambah wawasan dan pengetahuan pembacanya."
 
 jumlah_kata = hitung_kata(teks)
 
@@ -73,10 +72,10 @@ print(
 
 print()
 
-
 # SKENARIO 3 (KONDISI KHUSUS)
+# Satu Kalimat
 
-teks = "Berikut ini adalah alasan mengapa jejaring sosial bisa menjadi alat promosi yang paling efektif."
+teks = "Membaca buku merupakan kegiatan yang sangat bermanfaat."
 
 jumlah_kata = hitung_kata(teks)
 
